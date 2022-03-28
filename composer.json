@@ -1,0 +1,19 @@
+{
+    "name": "dodocanfly/courier-manager",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dodocanfly\\CourierManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Patryk Stępień",
+            "email": "patryk@dodocanfly.pl"
+        }
+    ]
+}
