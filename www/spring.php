@@ -77,8 +77,8 @@ if ($_POST['action'] === 'packagePDF') {
     <title>Spring</title>
 </head>
 <body>
-<a href="/.">home</a>
-<form method="post">
+<a href="/spring.php">home</a>
+<form action="spring.php" method="post">
     <h1 style="color: green;"><?=$message?></h1>
     <h1 style="color: red;"><?=$error?></h1>
     <button type="submit" name="action" value="newPackage">newPackage</button>
